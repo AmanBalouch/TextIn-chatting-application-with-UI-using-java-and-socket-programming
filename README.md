@@ -22,11 +22,18 @@ Flow of communication
 ⚙️ Project Structure
 TextIn-Chatting-Application/
 │── server/
-│   ├── LoginServer.java
-│   ├── MessagingServer.java
+│   ├── LogginServer
+|      ----Runner.java
+│   ├── MessagingServer
+|      ----Runner.jav a
 │
 │── client/
-│   ├── FrontEndMain.java
+│   ├──OOP Project
+|     ----src
+|         ----main
+|             ----java
+|                 ----AllFiles
+|                     -----Runner.java
 │
 │── UML/
 │   ├── ClassDiagram.png
@@ -35,13 +42,13 @@ TextIn-Chatting-Application/
 │── README.md
 🚀 How to Run
 1. Run the Servers
-Inside the server folder, run:
-LoginServer.java
-MessagingServer.java
+Inside the server folders, run:
+Runner.java
+Runner.java
 Both must be running before starting clients.
 2. Run the Client (Front End)
 Inside the client folder, run:
-FrontEndMain.java
+Runner.java
 3. Connect Clients
 Ensure:
 Server is running on one PC
